@@ -18,7 +18,7 @@
    > Returns data from all columns from all rows in a given table (* is a wildcard for 'all' )
 * SELECT `column1`,`column2` FROM `<tableName>` ORDER BY `column1`,`column2`,... `ASC || DESC`; 
    > Returns columns of all rows from a given table ordered by Ascending (*ASC*) OR Descending(*DESC*) values in the appointed columns. Default value is ordered by `id` and `DESC` when omitted
-* INSERT INTO `<tableName>` (`column1`,`column2`,`column3`...) VALUES (`value1`,`value2`,`value3`...)
+* INSERT INTO `<tableName>` (`column1`,`column2`,`column3`...) VALUES (`value1`,`value2`,`value3`,...),(`valueA1`,`valueA2`,`valueA3`,...),(...)
    > Inserts into the table a new row wherein the column* holds the respective appointed value* 
 
 * UPDATE `<tableName>` SET `column1` = `value1`, `column2` = `value2` WHERE `identifyingValue` = `someValue`;
