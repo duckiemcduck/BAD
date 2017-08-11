@@ -12,6 +12,8 @@
 	...
 ); 
    > Creates a new table entry with the appointed columns into the current database workspace
+* DESCRIBE `<tableName>`
+   > Informs table column pattern information.
 * SELECT `column1`, `column2`, ... FROM `<tableName>`; 
    > Returns requested column data from all rows in a given table
 * SELECT * FROM `<tableName>`; 
