@@ -33,6 +33,13 @@
 
 * UPDATE `<tableName>` SET `column1` = `value1`, `column2` = `value2` WHERE `identifyingValue` = `someValue`;
    > Updates the given column cell values from the rows where the identifying criteria applies
+
+## Backup Command Snippet
+
+```shell
+$mysqldump --all-databases -u root -p > backup.sql
+```
+
 ## Examples
 ```sql
 CREATE DATABASE countries
