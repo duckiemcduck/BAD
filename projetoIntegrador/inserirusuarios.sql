@@ -1,0 +1,1 @@
+INSERT INTO `amphora`.`usuario` (`idalmoxarifado`, `idusuario`, `admin`, `matricula`, `departamento`, `email`, `telefone`, `nome`) VALUES ('3', '1', '1', '1', '', 'fritoscreuza@hot.com.fr', '23238510', 'Creuza');
